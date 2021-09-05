@@ -1,0 +1,48 @@
+/* What?! This is my S T Y L E S H E E T?!*/
+/*
+p {
+    color: #ff0000;
+    background-color: #ffff66;
+}
+*/
+h1 {
+    color: #FFFFFF;
+    background-color: #80fe12;
+}
+#specialid{
+    color: #1dfd4f;
+}
+.specialclass {
+    color: #fd1356;
+    background-color: #000000;
+}
+a:link{
+    color:#00ff00;
+}
+a:visited{
+    color: #0000ff;
+}
+a:active{
+    color:#ffff00;
+}
+a:hover{
+    color: #ff00ff;
+    text-decoration: overline;
+}
+a{
+    color: #ff0000;
+    text-decoration:none;
+}
+footer{
+    color:#ffffff;
+    background-color: #ff0000;
+}
+#divexample{
+    text-align: center;
+    color: #0000ff;
+    background-color: #ffff00;
+}
+.spanstyle{
+    color: #00ff00;
+    text-decoration: overline;
+}
