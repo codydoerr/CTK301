@@ -1,0 +1,35 @@
+body {
+    background-color: #005C2F;
+    color: #008F49;
+}
+main {
+    color: #008F49;
+}
+h1{
+    background-color: #42DB91;
+}
+h2{
+    background-color: #42DB91;
+}
+p{
+    background-color: #42DB91;
+}
+a{
+    color: #DB321D;
+    text-decoration: none;
+}
+a:hover{
+    color: #DBC532;
+    text-decoration: underline;
+}
+a:visited{
+    color: #07DB73;
+}
+header{
+    text-align: center;
+}
+.mainText{
+    color: #005C2F;
+    align-items: center;
+    width: 200;
+}
