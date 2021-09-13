@@ -1,0 +1,36 @@
+.sky {
+    background-color: #99aaff;
+}
+.sun {
+    background-color: #ffff00;
+}
+.fire {
+    color: #ffb020;
+}
+.red {
+    color: red;
+}
+.limeBG {
+    background-color: #90ee90;
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: #0d0dff;
+}
+h4 {
+    color: #ffff00;
+    background-color: #006400;
+}
+h5 {
+    color: #8f1e8f;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
