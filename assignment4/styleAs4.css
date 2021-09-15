@@ -49,9 +49,9 @@ a{
     text-decoration: none;
 }
 img {
-    border-style: solid;
-    border-color: black;
-    border-width: 10px;
+    border: 10px solid black;
+    padding: 5px;
+    background-color: white;
 }
 a:hover{
     color: #DBC532;
