@@ -1,0 +1,83 @@
+body {
+    background-image: url("IllinoisState-Redbirds-DesktopBackground-1440x900.jpg");
+    color: #008F49;
+    font-family: sans-serif;
+}
+main {
+    color: #008F49;
+}
+footer{
+    text-align: center;
+}
+h1{
+    background-color: #42DB91;
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+h2{
+    background-color: #42DB91;
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+h3{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+h4{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+h5{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+h6{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+p{
+    background-color: #42DB91;
+}
+a{
+    color: #DB321D;
+    text-decoration: none;
+}
+img {
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+}
+a:hover{
+    color: #DBC532;
+    text-decoration: underline;
+}
+a:visited{
+    color: #07DB73;
+}
+header{
+    text-align: center;
+}
+div {
+
+}
+.mainText{
+    color: #005C2F;
+}
+.spanFormat{
+    align-self: center;
+    align-content: center;
+}
+.centerText{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+.justifyText{
+    text-align: justify;
+}
