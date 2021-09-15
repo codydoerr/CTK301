@@ -1,6 +1,1 @@
-Using CSS, give your images a heavy black border with white between the border and the image.
-Using CSS, put a background image in your pages.
-Open assignment4.html in your browser and make sure the pages and links work as you expect them to. If they don't, try to figure out the mistakes you made and fix them.
-Upload the pages and the stylesheet to your GitHub.
-Check to see if the page works online. (Your main page link should be something like this: http://YourGitHubUsername.github.io/CTK301/assignment4.html)
-Submit the link to your main page below
+
