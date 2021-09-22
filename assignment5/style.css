@@ -1,0 +1,50 @@
+.orangeText{
+    color: #ffa500;
+}
+.soul{
+    width: 638px;
+    height:1049px;
+    background-image: url(Soul.png);
+    background-repeat: no-repeat;
+    color:#197bd2;
+    font-family: arial;
+}
+header{
+    text-align: right;
+    color:white;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-left: 400px;
+    width: 200px;
+}
+body{
+    font-family: Impact;
+}
+.soul h1 {
+    padding-top: 75px;
+    text-align: center;
+    font-size: 100px;
+}
+footer{
+    padding-top: 455px;
+    text-align: center;
+    font-size: 10px;
+}
+.largeText{
+    font-size: 15px;
+}
+footer p{
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer a{
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color:#197bd2;
+}
+footer a:hover{
+    color: #ffa500;
+    text-decoration: underline;
+}
