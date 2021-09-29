@@ -1,0 +1,88 @@
+body{
+    background-image: url("a62.png");
+}
+#wrapper{
+    width: 1024px;
+    background-color:  white;
+    margin: 1em auto;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.bolding{
+    font-weight: bold;
+}
+header{
+    grid-column: span 4;
+}
+header h1{
+    font-weight: normal;
+    background-color: black;
+    color: white;
+    margin:10px;
+    padding:10px;
+}
+nav{
+    grid-column: span 1;
+}
+nav li{
+    list-style: none;
+    background-color: red;
+    margin: 5px;
+    margin-left: 0;
+    padding:0;
+    border: 1px solid black;
+    width: 200px;
+}
+nav li:hover{
+    background-color: maroon;
+}
+nav li a{
+    display: block;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+nav ul{
+    margin: 0 10px;
+    padding: 0;
+}
+main{
+    margin:10px;
+    grid-column: span 3;
+}
+main h2{
+    border-bottom: 5px solid black;
+    margin: 0;
+}
+main img{
+    float: left;
+    padding: 5px;
+    border: 5px solid black;
+    margin: 10px 10px 10px 0;
+}
+main p{
+    text-align: justify;
+}
+main a{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+main a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+footer{
+    background-color: red;
+    border-top:5px solid black;
+    margin:0;
+    padding:5px;
+    grid-column: span 4;
+}
+footer p{
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
