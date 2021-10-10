@@ -1,0 +1,108 @@
+html{
+    background-color: grey;
+}
+
+header{
+    grid-column: span 3;
+    color:#2a9df4;
+    background: rgb(6,51,103);
+    background: linear-gradient(0deg, rgba(6,51,103,1) 0%, rgba(0,104,255,1) 100%);
+    font-style: italic;
+    margin: 0;
+    padding: 0 1em;
+    border:0;
+}
+header a{
+    text-decoration: none;
+    color:inherit;
+}
+a:hover{
+    color:#d0efff;
+}
+nav {
+  grid-column: span 3;
+  background-color: #063367;
+  margin: 0;
+  padding: 0;
+  border:0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+    width: 24.6%;
+    height: 100%;
+    display: inline-block;
+}
+
+nav li a {
+  display: block;
+  background: rgb(6,51,103);
+  background: linear-gradient(0deg, rgba(6,51,103,1) 0%, rgba(0,104,255,1) 100%);
+  padding: 1em;
+  color:#2a9df4;
+  text-decoration: none;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+nav li a:hover {
+    background: rgb(27,65,108);
+    background: linear-gradient(0deg, rgba(27,65,108,1) 0%, rgba(78,150,255,1) 100%);
+}
+main{
+    grid-column: span 3;
+    margin: 1em;
+}
+main a{
+    text-decoration: none;
+}
+main a:hover{
+    color:#063367;
+    text-decoration: underline;
+}
+main img {
+    border: 5px solid #063367;
+
+}
+main h2{
+    color: #063367;
+    border: 0 solid #063367;
+    border-width: 0 0 5px 0;
+}
+footer{
+    grid-column: span 3;
+    background-color: red;
+    width: 100%;
+    border-top: 5px solid #063367;
+    padding: 5px 0;
+}
+#wrapper{
+  margin: 1em auto;
+  padding: 0;
+  width: 1000px;
+  border: 4px solid #063367;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.floatimgL{
+    float:left;
+    margin: 0 1em 1em 0;
+}
+.floatimgR{
+    float:right;
+    margin: 0 0 1em 1em;
+}
+.redText{
+    color: red;
+    font-weight: bold;
+}
+.justifiedParagraph{
+    text-align: justify;
+    font-weight: bold;
+}
