@@ -1,0 +1,119 @@
+body {
+  background-color: #999999;
+    font-family: Helvetica, sans-serif;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+#contentGrid{
+    border: 10px solid grey;
+    margin: 24px 0;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    grid-column: span 12;
+}
+#contentGrid h2{
+    margin: 0 auto 24px auto;
+    grid-column: span 12;
+}
+#aboutMeGrid{
+    border: 10px solid grey;
+    margin: 24px 0;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    grid-column: span 12;
+    font-size: 20px;;
+}
+.aboutMeContent{
+    grid-column: span 8;
+    background-color: grey;
+    padding:0 24px;
+}
+.contactMeContent{
+    grid-column: span 4;
+    background-color: grey;
+    padding:0 24px;
+}
+.missionStatementContent{
+    grid-column: span 12;
+    background-color: grey;
+    padding:0 24px;
+}
+.gridContent{
+    grid-column: span 2;
+    background-color: grey;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 24px;
+}
+header{
+    background-color: grey;
+    grid-column: span 12;
+}
+header h1{
+    text-transform: uppercase;
+    padding : 1em;
+}
+header a{
+    color:black;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+main{
+    grid-column: span 8;
+    margin-top: 24px;
+}
+.mainSlideshow{
+    grid-column: span 8;
+}
+nav{
+    grid-column: span 4;
+    background-color: white;
+    margin-top: 24px;
+    padding: 0;
+    border:0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.imgPlaceholder{
+    background-color: grey;
+    height: 100px;
+    width: 100px;
+}
+nav li {
+    width: 20%;
+    height: 100%;
+}
+
+nav li a {
+  display: block;
+  color:black;
+  text-decoration: none;
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+.mainImg{
+        width: 800px;
+}
