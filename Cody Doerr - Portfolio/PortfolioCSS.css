@@ -2,7 +2,16 @@ body {
     background-color: #999999;
     font-family: Helvetica, sans-serif;
 }
-
+a{
+  text-decoration: none;
+  color:#000;
+}
+a:hover{
+  text-decoration: underline;
+}
+a:visited{
+  color:inherit;
+}
 #wrapper {
       margin: 24px auto;
       width: 1200px;
@@ -16,6 +25,7 @@ body {
 }
 #contentGrid{
     border: 10px solid #F54B41;
+    background-color: #A8241D;
     margin: 24px 0;
     padding: 24px;
     display: grid;
@@ -24,16 +34,18 @@ body {
     grid-column: span 12;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    font-family: "Caveat"
+    font-family: "Caveat";
+    box-shadow:5px 5px 10px #000;
 }
 #contentGrid h2{
     margin: 0 auto 24px auto;
     grid-column: span 12;
     padding: 0 auto;
+    color: white;
 
 }
 #aboutMeGrid{
-    border: 10px solid grey;
+    border: 10px solid #A8241D;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     box-shadow:5px 5px 10px #000;
@@ -50,7 +62,11 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin:36px 0;
+    font-size: 30px;
 }
+.navGrid a{
+    font-family: "Caveat";
+    }
 .aboutMeContent{
     grid-column: span 8;
     background-color: grey;
@@ -73,6 +89,8 @@ body {
 .gridContent{
     grid-column: span 3;
     background-color: grey;
+    color: white;
+    text-align: center;
     height: 200px;
     width: 200px;
     margin: 0 auto;
@@ -145,9 +163,10 @@ h3{
     border-bottom-left-radius: 10px;
 }
 nav{
-    grid-column: span 4;
+    grid-column: span 12;
     background-color: white;
-    margin-top: 24px;
+    margin: 24px auto 0 auto;
+
     padding: 0;
     border:0;
 }
@@ -207,10 +226,10 @@ nav li a {
       margin-right: 6px;
       padding: 0;
 
-      background-color: #eee;
+      background-color: #fff;
       border-bottom-left-radius: : 6px;
       border-bottom-right-radius: : 6px;
 }
 #myCarousel .carousel__slide img {
-    width: 65px;
+    width: 80px;
 }
